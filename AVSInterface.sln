@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceInterface", "ServiceInterface\ServiceInterface.csproj", "{E86FCE17-0A67-4B88-80FE-43897FCA90D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{29BA8392-0902-43EC-AD02-014A0BFF762E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataInterface", "DataInterface\DataInterface.csproj", "{947C0A78-6EC9-46B9-A29E-3796CFB05576}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{2DA8137F-001A-48FF-9816-23AA1EAE147C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{44BED178-F2C1-4809-AAE3-475173C94647}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC", "IoC\IoC.csproj", "{830EC0A3-91EF-43E5-BADB-F7750335E8D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataContracts", "DataContracts\DataContracts.csproj", "{B563A1B8-C3DB-4ABF-BC05-1232F42BFEBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueProc", "QueueProc\QueueProc.csproj", "{DFD81A5E-94F5-4FBB-8C10-2B6375BE3913}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.csproj", "{4499A664-6646-4786-8DF0-F6F327D60E2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E86FCE17-0A67-4B88-80FE-43897FCA90D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86FCE17-0A67-4B88-80FE-43897FCA90D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86FCE17-0A67-4B88-80FE-43897FCA90D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86FCE17-0A67-4B88-80FE-43897FCA90D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BA8392-0902-43EC-AD02-014A0BFF762E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BA8392-0902-43EC-AD02-014A0BFF762E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BA8392-0902-43EC-AD02-014A0BFF762E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BA8392-0902-43EC-AD02-014A0BFF762E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947C0A78-6EC9-46B9-A29E-3796CFB05576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947C0A78-6EC9-46B9-A29E-3796CFB05576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947C0A78-6EC9-46B9-A29E-3796CFB05576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947C0A78-6EC9-46B9-A29E-3796CFB05576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA8137F-001A-48FF-9816-23AA1EAE147C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA8137F-001A-48FF-9816-23AA1EAE147C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA8137F-001A-48FF-9816-23AA1EAE147C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA8137F-001A-48FF-9816-23AA1EAE147C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BED178-F2C1-4809-AAE3-475173C94647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BED178-F2C1-4809-AAE3-475173C94647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BED178-F2C1-4809-AAE3-475173C94647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BED178-F2C1-4809-AAE3-475173C94647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830EC0A3-91EF-43E5-BADB-F7750335E8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830EC0A3-91EF-43E5-BADB-F7750335E8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830EC0A3-91EF-43E5-BADB-F7750335E8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830EC0A3-91EF-43E5-BADB-F7750335E8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B563A1B8-C3DB-4ABF-BC05-1232F42BFEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B563A1B8-C3DB-4ABF-BC05-1232F42BFEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B563A1B8-C3DB-4ABF-BC05-1232F42BFEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B563A1B8-C3DB-4ABF-BC05-1232F42BFEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD81A5E-94F5-4FBB-8C10-2B6375BE3913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD81A5E-94F5-4FBB-8C10-2B6375BE3913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD81A5E-94F5-4FBB-8C10-2B6375BE3913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD81A5E-94F5-4FBB-8C10-2B6375BE3913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4499A664-6646-4786-8DF0-F6F327D60E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4499A664-6646-4786-8DF0-F6F327D60E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4499A664-6646-4786-8DF0-F6F327D60E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4499A664-6646-4786-8DF0-F6F327D60E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44D7FBEE-44C5-48B4-8573-201916217D3E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alera.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ServiceInterface\\ServiceInterface.csproj
+		SccProjectName1 = ServiceInterface
+		SccLocalPath1 = ServiceInterface
+		SccProjectUniqueName2 = Data\\Data.csproj
+		SccProjectName2 = Data
+		SccLocalPath2 = Data
+		SccProjectUniqueName3 = DataInterface\\DataInterface.csproj
+		SccProjectName3 = DataInterface
+		SccLocalPath3 = DataInterface
+		SccProjectUniqueName4 = Services\\Services.csproj
+		SccProjectName4 = Services
+		SccLocalPath4 = Services
+		SccProjectUniqueName5 = DataContracts\\DataContracts.csproj
+		SccProjectName5 = DataContracts
+		SccLocalPath5 = DataContracts
+		SccProjectUniqueName6 = IoC\\IoC.csproj
+		SccProjectName6 = IoC
+		SccLocalPath6 = IoC
+		SccProjectUniqueName7 = API\\API.csproj
+		SccProjectName7 = API
+		SccLocalPath7 = API
+		SccProjectUniqueName8 = QueueProc\\QueueProc.csproj
+		SccProjectName8 = QueueProc
+		SccLocalPath8 = QueueProc
+		SccProjectUniqueName9 = TestApp\\TestApp.csproj
+		SccProjectName9 = TestApp
+		SccLocalPath9 = TestApp
+	EndGlobalSection
+EndGlobal

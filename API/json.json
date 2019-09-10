@@ -1,0 +1,19 @@
+{
+  "response": {
+    "responseDateTime": "2019-02-28T09:08:20.0408672-08:00",
+    "internalAccountIdentifier": "619299328",
+    "responseData": [
+      {
+        "statusCode": 0,
+        "description": "",
+        "comment": "Comment message",
+        "propertyResponse": [
+          {
+            "eventCode": 120,
+            "uniqueID": "0dbf75ea-cd31-477f-913b-fd6eb1fdb62f"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+
+        $.ajaxSetup({ cache: false });
+
+        function sendData(payload, url) {
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                dataType: "json",
+                data: payload,
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                success: function (data) {
+                    document.getElementById('result').innerText = JSON.stringify(data);
+
+                },
+                error: function (jqXHR, status, error) {
+                    console.log('An error occurred.');
+                    console.log(data);
+                    document.getElementById('result').innerText = JSON.stringify(data);
+                },
+                complete: function (data) {
+
+
+                }
+            });
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+
+    <table>
+        <tr>
+            <td><a href="javascript: void(sendData(document.getElementById('jsonData').value, 'http://localhost:55777/api/orders'));">Post Message</a></td>
+            <td><textarea id="jsonData" style="width:400px;height:100px;"></textarea></td>
+        </tr>
+        <tr>
+            <td><a href="javascript: void(sendData(document.getElementById('jsonDataSend').value, 'http://localhost:55777/api/orders'));">Send Message</a></td>
+            <td><textarea id="jsonDataSend" style="width:400px;height:100px;"></textarea></td>
+        </tr>
+    </table>
+    <div id="result"></div>
+
+
+</body>
+</html>
